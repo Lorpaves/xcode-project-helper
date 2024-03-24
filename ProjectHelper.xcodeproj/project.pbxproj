@@ -8,14 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		B2B977EB2BAEEBAC00BF9607 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B977EA2BAEEBAC00BF9607 /* main.swift */; };
+		B2B977F32BAEEBC100BF9607 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = B2B977F22BAEEBC100BF9607 /* ArgumentParser */; };
+		B2B977F62BAEEBD800BF9607 /* ShellOut in Frameworks */ = {isa = PBXBuildFile; productRef = B2B977F52BAEEBD800BF9607 /* ShellOut */; };
+		B2B977F92BAEEBDE00BF9607 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B977F72BAEEBDE00BF9607 /* Platform.swift */; };
+		B2B977FA2BAEEBDE00BF9607 /* PodspecFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B977F82BAEEBDE00BF9607 /* PodspecFile.swift */; };
+		B2B977FE2BAEEFDE00BF9607 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B977FD2BAEEFDE00BF9607 /* Constants.swift */; };
+		B2B978042BAEFCD100BF9607 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978032BAEFCD100BF9607 /* Date+Extension.swift */; };
+		B2B978062BAF03C100BF9607 /* ParsableArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978052BAF03C100BF9607 /* ParsableArgument.swift */; };
+		B2B978092BAF065C00BF9607 /* Rainbow in Frameworks */ = {isa = PBXBuildFile; productRef = B2B978082BAF065C00BF9607 /* Rainbow */; };
+		B2B9780B2BAF068300BF9607 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9780A2BAF068300BF9607 /* Logger.swift */; };
+		B2B9780D2BAF07C500BF9607 /* Parsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9780C2BAF07C500BF9607 /* Parsable.swift */; };
+		B2B9780F2BAF08AD00BF9607 /* PlatformParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9780E2BAF08AD00BF9607 /* PlatformParser.swift */; };
+		B2B978112BAF08BF00BF9607 /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978102BAF08BF00BF9607 /* Pod.swift */; };
+		B2B978132BAF0A7000BF9607 /* PodParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978122BAF0A7000BF9607 /* PodParser.swift */; };
+		B2B978172BAF1E8700BF9607 /* ProjectBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978162BAF1E8700BF9607 /* ProjectBuilder.swift */; };
+		B2B9781B2BAF20AF00BF9607 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9781A2BAF20AF00BF9607 /* File.swift */; };
+		B2B9781D2BAF20BB00BF9607 /* FileBuildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9781C2BAF20BB00BF9607 /* FileBuildable.swift */; };
+		B2B978202BAF20D000BF9607 /* FileWritable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B9781F2BAF20D000BF9607 /* FileWritable.swift */; };
+		B2B978222BAF20DF00BF9607 /* LicenseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978212BAF20DF00BF9607 /* LicenseFile.swift */; };
+		B2B978252BAF219F00BF9607 /* SwiftLintFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978242BAF219F00BF9607 /* SwiftLintFile.swift */; };
+		B2B978272BAF21C800BF9607 /* PodFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978262BAF21C800BF9607 /* PodFile.swift */; };
+		B2B978292BAF22AF00BF9607 /* PHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B978282BAF22AF00BF9607 /* PHError.swift */; };
+		B2F82E1B2BAFE1DA00B5342E /* GitIgnoreFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F82E1A2BAFE1DA00B5342E /* GitIgnoreFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B2B977E52BAEEBAC00BF9607 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -25,6 +47,26 @@
 /* Begin PBXFileReference section */
 		B2B977E72BAEEBAC00BF9607 /* ProjectHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B977EA2BAEEBAC00BF9607 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B2B977F72BAEEBDE00BF9607 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		B2B977F82BAEEBDE00BF9607 /* PodspecFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodspecFile.swift; sourceTree = "<group>"; };
+		B2B977FD2BAEEFDE00BF9607 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B2B978032BAEFCD100BF9607 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		B2B978052BAF03C100BF9607 /* ParsableArgument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsableArgument.swift; sourceTree = "<group>"; };
+		B2B9780A2BAF068300BF9607 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B2B9780C2BAF07C500BF9607 /* Parsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsable.swift; sourceTree = "<group>"; };
+		B2B9780E2BAF08AD00BF9607 /* PlatformParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformParser.swift; sourceTree = "<group>"; };
+		B2B978102BAF08BF00BF9607 /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
+		B2B978122BAF0A7000BF9607 /* PodParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodParser.swift; sourceTree = "<group>"; };
+		B2B978162BAF1E8700BF9607 /* ProjectBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBuilder.swift; sourceTree = "<group>"; };
+		B2B978182BAF1EFC00BF9607 /* ProjectHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectHelper.entitlements; sourceTree = "<group>"; };
+		B2B9781A2BAF20AF00BF9607 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B2B9781C2BAF20BB00BF9607 /* FileBuildable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBuildable.swift; sourceTree = "<group>"; };
+		B2B9781F2BAF20D000BF9607 /* FileWritable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWritable.swift; sourceTree = "<group>"; };
+		B2B978212BAF20DF00BF9607 /* LicenseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseFile.swift; sourceTree = "<group>"; };
+		B2B978242BAF219F00BF9607 /* SwiftLintFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLintFile.swift; sourceTree = "<group>"; };
+		B2B978262BAF21C800BF9607 /* PodFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodFile.swift; sourceTree = "<group>"; };
+		B2B978282BAF22AF00BF9607 /* PHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHError.swift; sourceTree = "<group>"; };
+		B2F82E1A2BAFE1DA00B5342E /* GitIgnoreFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitIgnoreFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B978092BAF065C00BF9607 /* Rainbow in Frameworks */,
+				B2B977F62BAEEBD800BF9607 /* ShellOut in Frameworks */,
+				B2B977F32BAEEBC100BF9607 /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +102,69 @@
 		B2B977E92BAEEBAC00BF9607 /* ProjectHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B2B978182BAF1EFC00BF9607 /* ProjectHelper.entitlements */,
 				B2B977EA2BAEEBAC00BF9607 /* main.swift */,
+				B2B977F72BAEEBDE00BF9607 /* Platform.swift */,
+				B2B978102BAF08BF00BF9607 /* Pod.swift */,
+				B2B978282BAF22AF00BF9607 /* PHError.swift */,
+				B2B978232BAF212300BF9607 /* File */,
+				B2B9781E2BAF20C900BF9607 /* Writer */,
+				B2B978192BAF20A200BF9607 /* Builder */,
+				B2B977FF2BAEFBE900BF9607 /* Parser */,
+				B2B978022BAEFC9300BF9607 /* Helper */,
 			);
 			path = ProjectHelper;
+			sourceTree = "<group>";
+		};
+		B2B977FF2BAEFBE900BF9607 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				B2B9780C2BAF07C500BF9607 /* Parsable.swift */,
+				B2B978052BAF03C100BF9607 /* ParsableArgument.swift */,
+				B2B9780E2BAF08AD00BF9607 /* PlatformParser.swift */,
+				B2B978122BAF0A7000BF9607 /* PodParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		B2B978022BAEFC9300BF9607 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B2B977FD2BAEEFDE00BF9607 /* Constants.swift */,
+				B2B978032BAEFCD100BF9607 /* Date+Extension.swift */,
+				B2B9780A2BAF068300BF9607 /* Logger.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B2B978192BAF20A200BF9607 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				B2B9781C2BAF20BB00BF9607 /* FileBuildable.swift */,
+				B2B978162BAF1E8700BF9607 /* ProjectBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		B2B9781E2BAF20C900BF9607 /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				B2B9781F2BAF20D000BF9607 /* FileWritable.swift */,
+			);
+			path = Writer;
+			sourceTree = "<group>";
+		};
+		B2B978232BAF212300BF9607 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				B2B9781A2BAF20AF00BF9607 /* File.swift */,
+				B2B977F82BAEEBDE00BF9607 /* PodspecFile.swift */,
+				B2B978262BAF21C800BF9607 /* PodFile.swift */,
+				B2B978212BAF20DF00BF9607 /* LicenseFile.swift */,
+				B2B978242BAF219F00BF9607 /* SwiftLintFile.swift */,
+				B2F82E1A2BAFE1DA00B5342E /* GitIgnoreFile.swift */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,12 +177,18 @@
 				B2B977E32BAEEBAC00BF9607 /* Sources */,
 				B2B977E42BAEEBAC00BF9607 /* Frameworks */,
 				B2B977E52BAEEBAC00BF9607 /* CopyFiles */,
+				4B67D3AEA8C0F2B8C221D795 /* Check SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ProjectHelper;
+			packageProductDependencies = (
+				B2B977F22BAEEBC100BF9607 /* ArgumentParser */,
+				B2B977F52BAEEBD800BF9607 /* ShellOut */,
+				B2B978082BAF065C00BF9607 /* Rainbow */,
+			);
 			productName = ProjectHelper;
 			productReference = B2B977E72BAEEBAC00BF9607 /* ProjectHelper */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +217,11 @@
 				Base,
 			);
 			mainGroup = B2B977DE2BAEEBAC00BF9607;
+			packageReferences = (
+				B2B977F12BAEEBC100BF9607 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				B2B977F42BAEEBD800BF9607 /* XCRemoteSwiftPackageReference "ShellOut" */,
+				B2B978072BAF065C00BF9607 /* XCRemoteSwiftPackageReference "Rainbow" */,
+			);
 			productRefGroup = B2B977E82BAEEBAC00BF9607 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -115,12 +231,52 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B67D3AEA8C0F2B8C221D795 /* Check SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2B977E32BAEEBAC00BF9607 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B9780F2BAF08AD00BF9607 /* PlatformParser.swift in Sources */,
+				B2B978172BAF1E8700BF9607 /* ProjectBuilder.swift in Sources */,
+				B2B9781D2BAF20BB00BF9607 /* FileBuildable.swift in Sources */,
+				B2B977FE2BAEEFDE00BF9607 /* Constants.swift in Sources */,
+				B2B978132BAF0A7000BF9607 /* PodParser.swift in Sources */,
+				B2F82E1B2BAFE1DA00B5342E /* GitIgnoreFile.swift in Sources */,
+				B2B977FA2BAEEBDE00BF9607 /* PodspecFile.swift in Sources */,
+				B2B978112BAF08BF00BF9607 /* Pod.swift in Sources */,
+				B2B977F92BAEEBDE00BF9607 /* Platform.swift in Sources */,
+				B2B978272BAF21C800BF9607 /* PodFile.swift in Sources */,
 				B2B977EB2BAEEBAC00BF9607 /* main.swift in Sources */,
+				B2B9780B2BAF068300BF9607 /* Logger.swift in Sources */,
+				B2B9781B2BAF20AF00BF9607 /* File.swift in Sources */,
+				B2B9780D2BAF07C500BF9607 /* Parsable.swift in Sources */,
+				B2B978042BAEFCD100BF9607 /* Date+Extension.swift in Sources */,
+				B2B978292BAF22AF00BF9607 /* PHError.swift in Sources */,
+				B2B978062BAF03C100BF9607 /* ParsableArgument.swift in Sources */,
+				B2B978252BAF219F00BF9607 /* SwiftLintFile.swift in Sources */,
+				B2B978202BAF20D000BF9607 /* FileWritable.swift in Sources */,
+				B2B978222BAF20DF00BF9607 /* LicenseFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +336,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -237,7 +393,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -248,9 +404,14 @@
 		B2B977EF2BAEEBAC00BF9607 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ProjectHelper/ProjectHelper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN69HAMWC7;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = 3529NQ8M3S;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lorpaves.projecthelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -259,9 +420,14 @@
 		B2B977F02BAEEBAC00BF9607 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ProjectHelper/ProjectHelper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PN69HAMWC7;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = 3529NQ8M3S;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lorpaves.projecthelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -289,6 +455,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2B977F12BAEEBC100BF9607 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+		B2B977F42BAEEBD800BF9607 /* XCRemoteSwiftPackageReference "ShellOut" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/ShellOut";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		B2B978072BAF065C00BF9607 /* XCRemoteSwiftPackageReference "Rainbow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Rainbow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2B977F22BAEEBC100BF9607 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B977F12BAEEBC100BF9607 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		B2B977F52BAEEBD800BF9607 /* ShellOut */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B977F42BAEEBD800BF9607 /* XCRemoteSwiftPackageReference "ShellOut" */;
+			productName = ShellOut;
+		};
+		B2B978082BAF065C00BF9607 /* Rainbow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B978072BAF065C00BF9607 /* XCRemoteSwiftPackageReference "Rainbow" */;
+			productName = Rainbow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2B977DF2BAEEBAC00BF9607 /* Project object */;
 }

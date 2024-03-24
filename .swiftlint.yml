@@ -1,0 +1,14 @@
+excluded:
+  - DerivedData
+  - Pods
+disabled_rules:
+  - orphaned_doc_comment
+  - trailing_whitespace
+  - switch_case_alignment
+  - private_over_fileprivate
+  - identifier_name
+  - function_body_length
+  - line_length
+  - type_body_length
+  - nesting
+  - function_parameter_count
