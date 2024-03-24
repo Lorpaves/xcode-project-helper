@@ -67,7 +67,7 @@ struct ProjectBuilder {
 extension ProjectBuilder {
     private func runScript(hasPodfile: Bool) throws {
         let url = try writeScript(to: folder, hasPodfile: hasPodfile)
-        try shellOut(to: "ruby", arguments: [url.path])
+        try shellOut(to: "ruby", arguments: ["'\(url.path)'"])
         try removeScript(at: url)
     }
 
@@ -120,8 +120,8 @@ extension ProjectBuilder {
 
     private func refrenceFiles(in folder: URL, hasPodfile: Bool) -> String {
         if hasPodfile {
-            return "['\(folder.appendingPathComponent("\(project).podspec").path)', '\(folder.appendingPathComponent("Podfile").path)', '\(folder.appendingPathComponent(".swiftlint").path)']"
+            return "['\(folder.appendingPathComponent("\(project).podspec").path)', '\(folder.appendingPathComponent("Podfile").path)', '\(folder.appendingPathComponent(".swiftlint.yml").path)']"
         }
-        return "['\(folder.appendingPathComponent("\(project).podspec").path)', '\(folder.appendingPathComponent(".swiftlint").path)']"
+        return "['\(folder.appendingPathComponent("\(project).podspec").path)', '\(folder.appendingPathComponent(".swiftlint.yml").path)']"
     }
 }

@@ -11,7 +11,7 @@ struct SwiftLintFile {}
 
 extension SwiftLintFile: FileBuildable {
     func build() -> File {
-        File(name: ".swiftlint", content: Constants.swiftlint)
+        File(name: ".swiftlint.yml", content: Constants.swiftlint)
     }
 }
 
