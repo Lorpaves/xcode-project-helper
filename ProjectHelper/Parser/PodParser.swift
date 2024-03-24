@@ -31,8 +31,6 @@ enum PodParser: Parsable {
         } else {
             podName = text as String
         }
-        
-        print(result.numberOfRanges)
         if result.numberOfRanges > 2 {
             let range = result.range(at: 2)
             let version: String? = {
